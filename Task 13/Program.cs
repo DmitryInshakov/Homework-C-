@@ -21,7 +21,7 @@ bool CheckThirdDigit (int number)
 
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-if (CheckThirdDigit(number))
+if (CheckThirdDigit(number)==true)
 {
     Console.WriteLine(FindThirdRang(number));
 }
